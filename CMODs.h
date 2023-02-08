@@ -16,3 +16,8 @@ Vector3 WorldToScreenPoint(void *transform, Vector3 test) {
 }
 
 
+
+If you want without the need to : reinterpret_cast<uint64_t
+use the yes : void (*WorldToScreenPoint_Injected)(void *, Vector3, int, Vector3&)
+
+Use on your own.
